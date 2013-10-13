@@ -1,0 +1,19 @@
+<VirtualHost *:8888>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/site
+	SSLEngine On
+	SSLCertificateFile /etc/apache2/ssl/apache.crt
+	SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+
+
+	<Directory /var/www/site/>
+
+		SSLRequireSSL
+		Options +FollowSymLinks -Indexes
+		AllowOverride All
+		Order allow,deny
+		allow from all
+		
+	</Directory>
+
+</VirtualHost>
