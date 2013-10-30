@@ -5,11 +5,3 @@ sudo apt-get update
 sudo apt-get install sublime-text-installer nodejs
 
 sudo apt-get upgrade
-
-sudo apt-get update
-sudo tasksel install lamp-server
-sudo apt-get install php5-mcrypt phpmyadmin 
-
-sudo a2enmod ssl
-sudo a2enmod rewrite
-sudo service apache2 restart
