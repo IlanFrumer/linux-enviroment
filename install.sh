@@ -57,6 +57,6 @@ apt-get autoremove
 FILES_FOLDER="https://raw.github.com/IlanFrumer/linux-enviroment/master/files"
 
 ## clone files
-curl "$FILES_FOLDER/.zshrc" > ~/.zshrc
-curl "$FILES_FOLDER/Preferences.sublime-settings" > ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
-curl "$FILES_FOLDER/Package Control.sublime-settings" > ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
+curl -L "$FILES_FOLDER/.zshrc" > ~/.zshrc
+curl -L "$FILES_FOLDER/Preferences.sublime-settings" > ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+curl -L "$FILES_FOLDER/Package%20Control.sublime-settings" > ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
