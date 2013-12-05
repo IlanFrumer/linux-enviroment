@@ -1,0 +1,1 @@
+sudo sed -i '/^deb http:\/\/packages.medibuntu.org*/d' /etc/apt/sources.list /etc/apt/sources.list.d/*.list

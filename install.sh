@@ -5,7 +5,7 @@ apt-get -y install guake
 apt-get -y install zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 chsh -s $(which zsh) $USER
-git clone https://github.com/rupa/z.git
+git clone https://github.com/rupa/z.git ~/z
 
 ## - Preferences.sublime-settings
 add-apt-repository -y ppa:webupd8team/sublime-text-3
