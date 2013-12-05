@@ -1,3 +1,3 @@
 ## Installation
 
-- curl -L https://raw.github.com/IlanFrumer/linux-enviroment/master/install.sh | sh
+- sudo curl -L https://raw.github.com/IlanFrumer/linux-enviroment/master/install.sh | sh
