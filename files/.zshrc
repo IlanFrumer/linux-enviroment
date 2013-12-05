@@ -5,10 +5,10 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="kolo"
+ZSH_THEME="juanghurtado"
 
 # Example aliases
-alias zshconfig="kate ~/.zshrc &"
+alias zshconfig="subl ~/.zshrc &"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
@@ -48,7 +48,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$PATH:/usr/lib/x86_64-linux-gnu/qt4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
-alias "www"="cd /var/www"
 alias "zz"="source ~/.zshrc"
 
 source ~/z/z.sh
