@@ -2,7 +2,7 @@
 
 phase="1) upading & preparing repositories"
 
-atitle(){printf "\033c";echo "Phase $phase";echo "\n- $1\n";}
+function atitle(){printf "\033c";echo "Phase $phase";echo "\n- $1\n";}
 
 atitle "Adding Repositories.."
 
