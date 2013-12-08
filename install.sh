@@ -1,8 +1,9 @@
 # First we need a quake-like terminal...!
 
-phase="1) upading & preparing repositories"
+atitle() { printf "\033c"; echo "Phase $phase"; echo ""; echo "> $1"; echo ""; }
 
-function atitle(){printf "\033c";echo "Phase $phase";echo "\n- $1\n";}
+
+phase="1) upading & preparing repositories"
 
 atitle "Adding Repositories.."
 
