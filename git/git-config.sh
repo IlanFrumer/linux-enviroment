@@ -15,7 +15,7 @@ read email
 
 git config --global user.name "$name"
 git config --global user.email "$email"
-git config --global core.editor subl 
+git config --global core.editor subl -w
 git config --global color.ui true
 git config --global push.default simple
 
