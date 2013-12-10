@@ -113,5 +113,10 @@ curl -L "$FILES_FOLDER/Preferences.sublime-settings" > ~/.config/sublime-text-3/
 atitle "cloning Package Control.sublime-settings"
 curl -L "$FILES_FOLDER/Package%20Control.sublime-settings" > ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
 
+phase="9) Downloading Sublime text 3 Package manager"
+atitle "Downloading..."
+
+wget -NP ~/.config/sublime-text-3/Installed\ Packages/ http://sublime.wbond.net/Package%20Control.sublime-package
+
 printf "\033c"
 echo "Everything done!"
