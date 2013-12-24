@@ -1,10 +1,20 @@
 {
-	"font_size": 14,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"hot_exit": false,
-	"remember_open_files":false,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS",".sass-cache"]
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    ".sass-cache"
+  ],
+  "font_size": 11,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "hot_exit": false,
+  "remember_open_files": false,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "update_check": false
 }

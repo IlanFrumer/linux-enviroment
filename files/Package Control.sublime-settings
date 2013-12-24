@@ -3,11 +3,11 @@
 	[
 		"Better CoffeeScript",
 		"EditorConfig",
+		"EJS",
 		"Emmet",
 		"Emmet Css Snippets",
 		"Modific",
-		"Phpcs",
-		"Ruby Slim",
+		"JavaScript & Coffeescript Build Systems",
 		"Sass"
 	]
 }
