@@ -40,7 +40,7 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx)
+plugins=(git bower npm)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -49,5 +49,12 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/lib/x86_64-linux-gnu/qt4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 alias "zz"="source ~/.zshrc"
+alias "pp"="python -m SimpleHTTPServer"
+alias "ss"="subl . &"
+alias "cc"="coffee -wc *.coffee"
+alias "nn"="npm install"
+alias "bb"="bower install"
 
 source ~/z/z.sh
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
