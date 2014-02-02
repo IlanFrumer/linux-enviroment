@@ -55,6 +55,10 @@ alias "cc"="coffee -wc *.coffee"
 alias "nn"="npm install"
 alias "bb"="bower install"
 
+function gitc() {
+  git add -A && git commit -m "$1" && git push
+}
+
 source ~/z/z.sh
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
