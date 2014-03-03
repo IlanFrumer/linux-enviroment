@@ -54,11 +54,13 @@ alias "ss"="subl . &"
 alias "cc"="coffee -wc *.coffee"
 alias "nn"="npm install"
 alias "bb"="bower install"
+alias "tt"="thunar . &"
 
 function gitc() {
-  git add -A && git commit -m "$1" && git push
+  git add -A && git commit -m "$1"
 }
 
 source ~/z/z.sh
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre
+PATH=$PATH:$JAVA_HOME/bin
 
